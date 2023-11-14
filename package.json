@@ -1,8 +1,9 @@
 {
-  "name": "png",
+  "name": "compress-image",
   "version": "1.0.0",
-  "description": "",
-  "main": "noKey.js",
+  "description": "一种基于sharp的图片压缩工具",
+  "main": "index.js",
+  "bin": "./index.js",
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.1",
+    "commander": "^11.1.0",
     "md5": "^2.3.0",
     "minimist": "^1.2.5",
     "sharp": "^0.32.6",
